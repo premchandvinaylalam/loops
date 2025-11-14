@@ -95,3 +95,25 @@ n = 4
 
 for i in range(1, n + 1):
     print(" " * (n - i) + "*" * (2 * i - 1))
+
+'''output
+   *
+  ***
+ *****
+*******
+'''
+
+
+#while loop
+
+txt = ""
+while txt!= 'exit':
+    txt = input("enter the txt")
+    print(f"you have entered {txt}")
+
+
+n = 5
+while n>=1:
+    print(n)
+    n = n-1
+print("time is up")
