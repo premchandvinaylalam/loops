@@ -73,3 +73,17 @@ for i in marks:
     else:
         print(f"{i} - fail")
 
+n = 5
+'''for i in range(1,n+1):
+    for j in range(1,i):
+        print(" "*(n-j)+"*"*j)'''
+
+for i in range(1,n+1):
+    print(" "*(n-i)+"*"*i)
+
+'''output:
+    *
+   **
+  ***
+ ****
+*****'''
