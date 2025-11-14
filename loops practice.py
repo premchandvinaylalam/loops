@@ -66,3 +66,10 @@ for i in a1:
 ['prem', 'Chand', 'vinay']
 '''
 
+marks = [50,70,95,99,33,44]
+for i in marks:
+    if i > 50:
+        print(f"{i} - pass")
+    else:
+        print(f"{i} - fail")
+
