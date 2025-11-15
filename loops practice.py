@@ -117,3 +117,17 @@ while n>=1:
     print(n)
     n = n-1
 print("time is up")
+
+
+'''
+*
+**
+***
+****
+*****'''
+
+n = 5
+for i in range(1,n+1):
+    print("*"*i)
+
+
