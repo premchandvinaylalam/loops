@@ -58,3 +58,19 @@ for i in range(n, 0, -1):
     for j in range(1, i+1):
         print(j, end=" ")
     print()
+
+n = int(input("enter the number"))
+sum = 0
+for i in range(1,n+1):
+    sum = sum+i
+print(sum)
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for i in numbers:
+        if i>500:
+            break
+        if i>150:
+            continue
+        elif i%5==0:
+            print(i)
+        
