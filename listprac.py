@@ -41,3 +41,27 @@ for i in range(1,21):
         continue
     elif i%2!=0:
         print(i)
+
+'''outputs:
+15
+stop
+
+enter the number-1
+stopped at negative number
+END
+
+enter the word: python
+p
+y
+t
+h
+
+
+1
+3
+5
+7
+9
+11
+'''
+
