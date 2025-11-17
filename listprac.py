@@ -38,9 +38,9 @@ for i in range(1,21):
     if i==13:
         break
     elif i%2==0:
-        continue
-    elif i%2!=0:
-        print(i)
+        continue 
+    #    elif i%2!=0:
+    print(i)
 
 '''outputs:
 15
@@ -63,5 +63,47 @@ h
 7
 9
 11
+'''
+
+#ATM PIN NEEDS TO ENTERED, IF PIN WAS INCORRECTLY ENTERED 3 TIMES PRINT CARD BLOCK AND IF HE ENTERED CORRECT PRINT ACCESS GRANTED
+max_attempts = 3
+for i in range(1,max_attempts+1):
+    n = int(input("enter your four digit pin"))
+    if n == 1234:
+        print("access granted")
+        break
+    elif i == max_attempts:
+        print("card blocked")
+    else:
+        print("entered incorrect pin")
+        print("enter again pin")
+
+correct_pin = 1234
+attempts = 0
+while attempts<3:
+    pin = int(input("enter your four digit pin"))
+    if pin == correct_pin:
+        print("access granted")
+        break
+    else:
+        print("wrong pin")
+        attempts = attempts+1
+else:
+    print("card blocked")
+
+
+
+'''
+enter your four digit pin1234
+access granted
+
+enter your four digit pin3456
+entered incorrect pin
+enter again pin
+enter your four digit pin5566
+entered incorrect pin
+enter again pin
+enter your four digit pin666
+card blocked
 '''
 
